@@ -2,47 +2,76 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>ClokTen.xyz</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ClokTen — Built With the Bot, Braced for the Break</title>
+  <meta name="description" content="ClokTen is a Hip-Hop AI innovator — explore music, $Clok10, and ClokLand on one high-tech site." />
+  <meta name="keywords" content="ClokTen, $Clok10, ClokLand, AI Hip-Hop, Stacks Blockchain, Velar, AI Music" />
+  <meta name="author" content="ClokTen, LLC" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tailwindcss/ui@0.7.2/dist/tailwind-ui.min.css" />
   <style>
-    body { font-family: Arial, sans-serif; background: #111; color: #eee; text-align: center; margin: 0; padding: 0; }
-    header, footer { background: #222; padding: 1.5rem; }
-    section { padding: 2rem; }
-    iframe { width: 90%; height: 200px; border: none; }
-    footer { font-size: 0.8rem; color: #aaa; }
+    body {
+      background: #1f1d1a;
+      color: #f0e7d5;
+      font-family: 'Segoe UI', sans-serif;
+    }
+    header, footer {
+      background-color: #2e2b26;
+    }
+    a {
+      color: #c4b998;
+    }
+    a:hover {
+      color: #facc15;
+    }
   </style>
 </head>
-<body>
-  <header>
-    <h1>Welcome to ClokTen.xyz</h1>
-    <p>This is your official AI-powered hub</p>
+<body class="min-h-screen flex flex-col justify-between">
+  <header class="p-4 flex items-center justify-between">
+    <img src="/assets/cloklogo.png" alt="ClokTen Logo" class="h-12">
+    <nav class="space-x-4">
+      <a href="#music">🎵 Music</a>
+      <a href="#token">$Clok10</a>
+      <a href="#socials">🌐 Social</a>
+    </nav>
   </header>
 
-  <section>
-    <h2>🎥 YouTube</h2>
-    <iframe src="https://www.youtube.com/embed?listType=user_uploads&list=clokten" allowfullscreen></iframe>
-  </section>
+  <main class="p-6 space-y-12">
+    <section class="text-center">
+      <h1 class="text-4xl md:text-5xl font-bold text-yellow-300">Built With the Bot,<br/>Braced for the Break</h1>
+      <p class="mt-4 text-lg text-gray-300 max-w-xl mx-auto">Experience the fusion of hip-hop and AI. Discover $Clok10, original tracks, and the evolution of ClokLand.</p>
+    </section>
 
-  <section>
-    <h2>🌐 Social Links</h2>
-    <p>
-      <a href="https://twitter.com/clokten" target="_blank">Twitter</a> |
-      <a href="https://instagram.com/clokten" target="_blank">Instagram</a> |
-      <a href="https://t.me/clokten" target="_blank">Telegram</a> |
-      <a href="mailto:info@clokten.xyz">Email</a>
-    </p>
-  </section>
+    <section id="music" class="text-center">
+      <h2 class="text-2xl font-semibold mb-4">🎤 Latest Tracks</h2>
+      <iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay"
+        src="https://w.soundcloud.com/player/?url=https%3A//soundcloud.com/clokten&color=%236b4c2d&inverse=false&auto_play=false&show_user=true">
+      </iframe>
+    </section>
 
-  <section>
-    <h2>👁️ Visitors</h2>
-    <p>
-      Total: <img src="https://www.cutercounter.com/hits.php?id=hmxpnfx&nd=6&style=21" /><br/>
-      Online: <img src="https://www.cutercounter.com/hits.php?id=hmxpnfx&nd=1&style=21" />
-    </p>
-  </section>
+    <section id="token" class="text-center">
+      <h2 class="text-2xl font-semibold mb-4">💰 About $Clok10</h2>
+      <p class="max-w-md mx-auto text-gray-300">The official token of ClokTen on the Stacks blockchain. Available now on Velar. Join the movement.</p>
+      <p class="mt-2"><strong>Velar AMM:</strong> <code>SP2BN9JN4WEG02QYVX5Y21VMB2JWV3W0KNHPH9R4P</code></p>
+    </section>
 
-  <footer>
-    &copy; 2025 ClokTen. All rights reserved.
+    <section id="socials" class="text-center">
+      <h2 class="text-2xl font-semibold mb-4">📡 Follow ClokTen</h2>
+      <div class="flex justify-center space-x-6 text-xl">
+        <a href="https://www.youtube.com/@ClokTen" target="_blank">YouTube</a>
+        <a href="https://github.com/ClokTen" target="_blank">GitHub</a>
+        <a href="https://twitter.com/ClokTen" target="_blank">Twitter</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="p-4 text-center text-sm text-gray-400">
+    <div>
+      <p>© 2025 ClokTen, LLC • All rights reserved</p>
+      <p>
+        Site Visits:
+        <img src="https://hitwebcounter.com/counter/counter.php?page=1234567&style=0036&nbdigits=6&type=page&initCount=000000" alt="hit counter" />
+      </p>
+    </div>
   </footer>
 </body>
 </html>
